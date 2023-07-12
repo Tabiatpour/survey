@@ -1,0 +1,184 @@
+.dataBoxTitle {
+  width: 100%;
+  height: 10%;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.scoreBox {
+  width: 100%;
+  height: 10%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  /* top: -25px; */
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+  transition: 10ms;
+}
+
+.emoji:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cuideline {
+  width: 100%;
+  font-size: 10px;
+  align-items: center;
+  font-weight: 700;
+  /* line-height: 30px; */
+  /* display: flex; */
+  position: relative;
+  top: 20px;
+}
+
+.tabiatpour-checkbox {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  border: 1.5px solid #d0d5dd;
+  border-radius: 6px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.checkbox {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.reasonBox {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  /* top: 10px; */
+}
+.reasonTitle {
+  width: 100%;
+  height: 20%;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reasonDetailBox {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  /* bottom: 20px; */
+  /* right: -50px; */
+}
+.resonDetails {
+  width: 100%;
+  /* height: 10%; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  /* text-align: center; */
+  /* margin: 5px; */
+  /* align-items: center; */
+  /* vertical-align: middle; */
+  position: relative;
+  margin-bottom: 5px;
+  /* right: -50px; */
+  /* bottom: 20px; */
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 5px;
+  /* bottom: 20px; */
+  /* border: 2px solid red; */
+}
+.checkboxLable {
+  margin-right: 10px;
+}
+/* .textArea {
+  width: 80%;
+  height: 50%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+} */
+
+.textAreaInput {
+  width: 90%;
+  height: 40%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: iransans;
+  padding: 5px;
+  border: 1px solid #d0d5dd;
+  position: relative;
+  resize: none;
+  cursor: text;
+  /* bottom: -100px; */
+}
+
+.textAreaInput:focus {
+  outline: none !important;
+  border-color: #22959c;
+  box-shadow: 0 0 5px #22959c;
+}
+
+.textAreaInput-2 {
+  width: 90%;
+  height: 20%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: iransans;
+  padding: 5px;
+  border: 1px solid #d0d5dd;
+  position: relative;
+  resize: none;
+  cursor: text;
+}
+.textAreaInput-2:focus {
+  outline: none !important;
+  border-color: #22959c;
+  box-shadow: 0 0 5px #22959c;
+}
+
+.mr-30px {
+  margin-right: 30px;
+}
+.mr-Npx {
+  margin-right: 10px;
+}

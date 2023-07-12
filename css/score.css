@@ -1,0 +1,41 @@
+/* .title {
+  position: inherit;
+  top: 0px;
+} */
+
+.dataBoxTitle {
+  width: 100%;
+  height: 10%;
+  font-weight: 700;
+  font-size: 18px;
+  /* line-height: 30px; */
+  display: flex;
+  align-items: center;
+  /* text-align: right; */
+  flex-direction: column;
+}
+.scoreBox {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+.emoji {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.departman {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,45 @@
+.thankPack {
+  width: 100%;
+  /* height: 415px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  top: 100px; */
+}
+.thanksImg {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.imgSize {
+  width: 500px;
+  /* height: 100%; */
+}
+.thanksSpan {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  position: relative;
+  top: -253px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.logoSatrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>رضایت از سفارش</title>
+    <link rel="stylesheet" href="./css/setting.css" />
+    <link rel="stylesheet" href="./css/scoreDetails.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="dataBox">
+        <div class="goBack">
+          <a href="home.html"><img src="./img/goBack.png" alt="" /></a>
+        </div>
+        <div class="dataBoxTitle">میزان رضایت از سفارش</div>
+        <div class="scoreBox">
+          <div class="emoji">
+            <img
+              src="./img/imoji/verygood.png"
+              alt="خیلی خوب"
+              id="verygood"
+              onclick="ChangeSatisfaction(1)"
+              class="oneSelect emoji-img"
+              tabiat="verygood"
+            />
+          </div>
+          <div class="emoji">
+            <img
+              src="./img/imoji/good.png"
+              alt="خوب"
+              id="good"
+              onclick="ChangeSatisfaction(2)"
+              class="oneSelect emoji-img"
+              tabiat="4"
+            />
+          </div>
+          <div class="emoji">
+            <img
+              src="./img/imoji/poker.png"
+              alt="متوسط"
+              id="poker"
+              onclick="ChangeSatisfaction(3)"
+              class="oneSelect emoji-img"
+              tabiat="3"
+            />
+          </div>
+          <div class="emoji">
+            <img
+              src="./img/imoji/bad.png"
+              alt="بد"
+              id="bad"
+              onclick="ChangeSatisfaction(4)"
+              class="oneSelect emoji-img"
+              tabiat="2"
+            />
+          </div>
+          <div class="emoji">
+            <img
+              src="./img/imoji/veryBad.png"
+              alt="خیلی بد"
+              id="verybad"
+              onclick="ChangeSatisfaction(5)"
+              class="oneSelect emoji-img"
+              tabiat="1"
+            />
+          </div>
+        </div>
+        <div class="reasonBox" id="reasonBox">
+          <div>
+            <span class="cuideline"
+              >کافیست میزان رضایت خود را با انتخاب گزینه مناسب نشان دهید.</span
+            >
+          </div>
+        </div>
+      </div>
+      <a href="./scoreDetails-Delivery.html">
+        <button class="button" onclick="sendData()">ثبت</button>
+      </a>
+    </div>
+  </body>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/main.js"></script>
+  <script>
+    // $.post(
+    //   "www.saatrapstage.com/tabeeat",
+    //   { value: "good" },
+    //   function (response0) {}
+    // );
+  </script>
+</html>

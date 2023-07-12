@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: iransans;
+  src: url(../font/IRANSansWeb\(FaNum\).ttf);
+}
+
+body,
+html {
+  direction: rtl;
+  font-family: iransans;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #0d4c54;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.dataBox {
+  width: 310px;
+  height: 533px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: -30px;
+  /* padding: 15px 0px; */
+}
+
+a {
+  font-family: iransans;
+  text-decoration: none;
+  color: #ffffff;
+}
+.button {
+  width: 156px;
+  height: 52px;
+  background-color: #13727d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  font-family: iransans;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #ffffff;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.goBack {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 20px 15px; */
+  position: relative;
+  left: 10px;
+}
+
+.position-relative {
+  position: relative;
+}
