@@ -8,7 +8,7 @@
   position: relative;
 }
 .logo {
-  width: 140px;
+  width: 200px;
   height: 140px;
   background-image: url(../img/logo.png);
   display: flex;
@@ -17,6 +17,9 @@
   flex-direction: column;
   position: relative;
   bottom: -58px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .titleBox {
   width: 100%;

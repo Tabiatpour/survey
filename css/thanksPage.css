@@ -10,7 +10,7 @@
 }
 .thanksImg {
   width: 100%;
-  height: auto;
+  height: 500px;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -32,14 +32,14 @@
   align-items: center;
   z-index: 999;
   position: relative;
-  top: -253px;
+  top: -215px;
   font-size: 16px;
   font-weight: 700;
 }
-.logoSatrap {
+/* .logoSatrap {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   bottom: 50px;
-}
+} */
